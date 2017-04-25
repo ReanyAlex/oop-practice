@@ -34,15 +34,7 @@ module.exports = {
 
 
 const myFrame = new Frame()
-//myFrame.color = "black"
-//myFrame.size = 55
-//myFrame.style = "street"
 
 const myBike = new Bike()
-//myBike.name = ""
-//myBike.price = ""
-//myBike.tires = ["front", "back"]
 
 const myTire = new Tire()
-//myTire.diameter = ""
-//myTire.type = ""
