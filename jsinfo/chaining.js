@@ -35,7 +35,6 @@ let ladder = {
   down() {
     this.step--;
     return this;
-
   },
   // shows the current step
   showStep: function() {
