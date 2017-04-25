@@ -9,16 +9,13 @@ In other words, the value property is the sum of all user-entered values with th
 
 
 function Accumulator(startingValue) {
+  //holds the startingValue to be minipulated
+  this.value = startingValue;
 
   this.read = function () {
-    this.value1 = parseFloat(prompt("what is the first value"));
-    startingValue += this.value1;
-    console.log(startingValue);
+    //adds the prompted amount to the value at the moment
+    this.value += parseFloat(prompt("what is the first value"));
   };
-
-  this.value = function (startingValue) {
-    return Accumulator.startingValue
-  }
 }
 
 
