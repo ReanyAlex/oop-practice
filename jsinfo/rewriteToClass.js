@@ -41,6 +41,7 @@ let clock = new Clock({template: 'h:m:s'});
 class Clock {
   // ({ ... }) allows the item to be passed in as a object literal
   constructor({template}){
+    //wanted to
     console.log(typeof({template}));
   this._template = template;
   }
