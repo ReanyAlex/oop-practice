@@ -2,6 +2,7 @@
 
 let calculator = {
    read() {
+  // get values
       this.value1 = parseFloat(prompt("what is the first value"));
       this.value2 = parseFloat(prompt("what is the second value"));
   },

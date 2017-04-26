@@ -9,14 +9,23 @@ let head = {
 };
 
 let table = {
-  pen: 3
+  pen: 3,
+  __proto__ : head
 };
 
 let bed = {
   sheet: 1,
-  pillow: 2
+  pillow: 2,
+  __proto__ : table
 };
 
 let pockets = {
-  money: 2000
+  money: 2000,
+  __proto__ : bed
 };
+
+ /*is it faster to get glasses as pocket.glasses
+ or head.glasses? Benchmark if needed.*/
+
+//It seems that pocket.glasses and head.glasses
+//take about the same amout of time

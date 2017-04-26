@@ -1,5 +1,4 @@
 function Bike(name, price) {
-  alert(new.target);
   this.name = name
   this.price = price
   this.rings = [3, 7]
