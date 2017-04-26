@@ -1,6 +1,7 @@
 //Create a calculator that can take a string and return the value
 function Calculator() {
 
+//holds new method funtions
   let methods = {
     "+" : function(value1, value2){
       return parseFloat(value1) + parseFloat(value2)
@@ -16,6 +17,7 @@ function Calculator() {
     var value2 = strSplit[2];
     var operator = strSplit[1];
 
+//return the value of the string to be operated on
     return methods[operator](value1, value2)
   };
 
