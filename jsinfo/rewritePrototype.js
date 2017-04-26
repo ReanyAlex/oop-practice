@@ -69,8 +69,8 @@ Clock.prototype.stop = function() {
 };
 
 Clock.prototype.start = function() {
-  this.render();
-  this.timer = setInterval(() =>this.render(), 1000);
+  this._render();
+  this.timer = setInterval(() =>this._render(), 1000);
 };
 
 

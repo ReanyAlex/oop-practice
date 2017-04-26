@@ -28,7 +28,6 @@ Tire.prototype.isFlat = function () {
 
 Tire.prototype.puncture = function () {
   this._isFlat = true
-  //this.tires[0]._isFlat = true
 }
 
 
