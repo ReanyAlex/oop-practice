@@ -28,4 +28,4 @@ let pockets = {
  or head.glasses? Benchmark if needed.*/
 
 //It seems that pocket.glasses and head.glasses
-//take about the same amout of time 
+//take about the same amout of time
