@@ -41,8 +41,8 @@ class BMXBike extends Bike {
 }
 
 class RacingBike extends Bike {
-  constructor(val) {
-  super(val);
+  constructor() {
+  super();
   this.tires[0].type = 'road';
   this.tires[1].type = 'road';
   this.frame.style = 'racing';
@@ -57,8 +57,10 @@ class RacingBike extends Bike {
 
 
 
-//let mountainBike = new MountainBike()
-//let racingBike = new RacingBike()
+let mountainBike = new MountainBike()
+let bmxBike = new BMXBike()
+let racingBike = new RacingBike()
+let bike = new Bike
 
 
 
@@ -67,5 +69,4 @@ module.exports = {
   MountainBike: MountainBike,
   BMXBike: BMXBike,
   RacingBike: RacingBike
-  // you'll need to export new classes here
 }
