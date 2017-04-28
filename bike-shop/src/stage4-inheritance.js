@@ -8,14 +8,14 @@ class Tire {
 
 class Bike {
   constructor() {
-    this.tires = [new Tire, new Tire]
-    this.frame = new Frame
+    this.tires = [new Tire, new Tire];
+    this.frame = new Frame;
     this.brakes = {
       back : true,
       front : true
-    }
+    };
     this.rings = [3, 7]
-  }
+  };
 }
 
 class MountainBike extends Bike {
@@ -57,10 +57,10 @@ class RacingBike extends Bike {
 
 
 
-let mountainBike = new MountainBike()
-let bmxBike = new BMXBike()
-let racingBike = new RacingBike()
-let bike = new Bike
+let mountainBike = new MountainBike();
+let bmxBike = new BMXBike();
+let racingBike = new RacingBike();
+let bike = new Bike();
 
 
 
@@ -69,4 +69,4 @@ module.exports = {
   MountainBike: MountainBike,
   BMXBike: BMXBike,
   RacingBike: RacingBike
-}
+};

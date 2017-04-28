@@ -3,8 +3,8 @@
 let calculator = {
    read() {
   // get values
-      this.value1 = parseFloat(prompt("what is the first value"));
-      this.value2 = parseFloat(prompt("what is the second value"));
+      this.value1 = parseFloat(prompt('what is the first value'));
+      this.value2 = parseFloat(prompt('what is the second value'));
   },
 
   sum() {
@@ -14,7 +14,7 @@ let calculator = {
   mul() {
     return this.value1 * this.value2;
   }
-}
+};
 
 calculator.read();
 alert( calculator.sum() );

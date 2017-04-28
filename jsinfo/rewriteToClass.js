@@ -49,7 +49,7 @@ class Clock {
   _render() {
     let date = new Date();
 
-    let hours = date.getHours()
+    let hours = date.getHours();
     if (hours < 10) hours = '0' + hours;
 
     let mins = date.getMinutes();
@@ -69,7 +69,7 @@ class Clock {
 //clock.stop() will stop the clock
   stop() {
     clearInterval(this._timer);
-  };
+  }
 
 //clock.start() would then restart the clock
   start() {

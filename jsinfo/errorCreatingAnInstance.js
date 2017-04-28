@@ -15,12 +15,12 @@ class Animal {
 class Rabbit extends Animal {
   constructor(name) {
     //need to add a supper function to allow inheritance
-    super(name)
+    super(name);
     //now with the super()
     //this.name = name;
     this.created = Date.now();
   }
 }
 
-let rabbit = new Rabbit("White Rabbit"); // Error: this is not defined
+let rabbit = new Rabbit('White Rabbit'); // Error: this is not defined
 alert(rabbit.name);

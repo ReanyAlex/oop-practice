@@ -62,7 +62,7 @@ Clock.prototype.render = function(){
     .replace('s', secs);
 
   console.log(output);
-}
+};
 
 Clock.prototype.stop = function() {
   clearInterval(this.timer);

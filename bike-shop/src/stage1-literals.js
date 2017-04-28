@@ -1,11 +1,10 @@
 const myBike = {
-
-  name : "Roadster",
+  name : 'Roadster',
   price : 199.99,
   frame : {
-    color : "blue",
+    color : 'blue',
     height: 55,
-    style : "cruiser"
+    style : 'cruiser'
           },
   brakes : {
     back : true,
@@ -13,9 +12,9 @@ const myBike = {
   },
   tires : {
     diameter : 22,
-    type : "fat"
+    type : 'fat'
   },
   rings : [2, 5]
 };
 
-module.exports = myBike
+module.exports = myBike;

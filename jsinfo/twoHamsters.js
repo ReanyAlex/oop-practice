@@ -23,7 +23,7 @@ let lazy = {
 };
 
 // This one found the food
-speedy.eat("apple");
+speedy.eat('apple');
 alert( speedy.stomach ); // apple
 
 // This one also has it, why? fix please.

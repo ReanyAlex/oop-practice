@@ -20,8 +20,8 @@ Rabbit.prototype = Animal.prototype;
 
 //This will overwrite the previous walk prototype and animals will now bounce and not walk
 Rabbit.prototype.walk = function() {
-  alert(this.name + " bounces!");
+  alert(this.name + ' bounces!');
 };
 
 let rabbit = new Rabbit;
-let animal = new Animal("skunk");
+let animal = new Animal('skunk');

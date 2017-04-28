@@ -14,7 +14,7 @@ function Accumulator(startingValue) {
 
   this.read = function () {
     //adds the prompted amount to the value at the moment
-    this.value += parseFloat(prompt("what is the first value"));
+    this.value += parseFloat(prompt('what is the first value'));
   };
 }
 

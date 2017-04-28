@@ -16,8 +16,8 @@
  let menu = {
    width: 200,
    height: 300,
-   title: "My menu"
+   title: 'My menu'
  };
 
 //call the function
- multiplyNumeric(menu)
+ multiplyNumeric(menu);
