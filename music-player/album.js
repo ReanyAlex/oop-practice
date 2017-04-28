@@ -15,7 +15,7 @@ class Album {
 let newAlbum = new Album(Physical_Graffiti);
 
 //Artist name
-let LedZeppelin = [["Jimmy Page", "John Bonham", 'Robert Plant', 'John Paul Jones']];
+let LedZeppelin = [['Jimmy Page', 'John Bonham', 'Robert Plant', 'John Paul Jones']];
 
 LedZeppelin.push(new Album (Physical_Graffiti));
 LedZeppelin.push(new Album (Physical_Graffiti1));
